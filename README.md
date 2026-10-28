@@ -1,4 +1,4 @@
-# Framecraft Studio — AI Social Media Thumbnail Generator
+# Framecraft Thumbnail Generator
 
 Framecraft Studio is a production-ready, full-stack AI web application that transforms user-uploaded reference photos into stylized, typography-driven social media thumbnails[cite: 1]. Built with a **React (Vite)** frontend and a **FastAPI** backend, it integrates **Supabase Auth**, **Supabase PostgreSQL** (via SQLAlchemy 2.0), **ImageKit CDN**, and **OpenAI (`gpt-image-1-mini`)**[cite: 1], fully containerized with **Docker, Nginx, and Docker Compose** for cloud deployment on **AWS EC2**.
 
