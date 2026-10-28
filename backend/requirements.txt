@@ -1,0 +1,15 @@
+# Simple web API and request validation
+fastapi>=0.115,<1
+uvicorn[standard]>=0.30,<1
+pydantic>=2.7,<3
+python-multipart>=0.0.9,<1
+# PostgreSQL ORM and database driver
+SQLAlchemy>=2.0.30,<3
+psycopg[binary]>=3.2,<4
+# Real image model, CDN upload, and image validation
+openai>=1.99,<3
+httpx>=0.27,<1
+Pillow>=10.4,<13
+python-dotenv>=1.0,<2
+# Tests
+pytest>=8,<10

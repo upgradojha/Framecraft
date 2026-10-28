@@ -1,0 +1,15 @@
+# Local secrets
+.env
+**/.env
+!.env.example
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+# Generated data: do not commit private reference photos and thumbnails
+backend/data/
+# React
+node_modules/
+dist/
+.DS_Store
