@@ -69,7 +69,7 @@ def generate_image(reference: bytes, prompt: str, size: str, quality: str, fmt: 
         image=('reference.jpg', reference, 'image/jpeg'),
         prompt=prompt,
         size=size,
-        quality='low',
+        quality='high',
         output_format='jpeg',
     )
     if not result.data or not result.data[0].b64_json:
